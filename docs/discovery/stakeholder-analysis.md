@@ -22,11 +22,17 @@ The initial stakeholders are grouped into three main categories:
 
 ## 3. Individual Users
 
-Individual users are the primary focus of BuildWise.
+Individual Software Engineering learners are the primary focus of BuildWise.
 
-### 3.1 Software Engineering Students
+Different users may use BuildWise in different contexts, including:
 
-Software Engineering students are the main initial users of BuildWise, particularly students working on graduation or practical software projects.
+* Final-year Software Engineering students working on graduation projects.
+* Recent Software Engineering graduates working on personal or portfolio projects.
+* Software Engineering trainees or independent learners working on practical projects.
+
+Although their contexts and circumstances may differ, they may share a common need: applying Software Engineering knowledge through a structured process while building a real software project.
+
+### 3.1 Individual Software Engineering Learners
 
 **Interests and Needs:**
 
@@ -35,6 +41,8 @@ Software Engineering students are the main initial users of BuildWise, particula
 * Receive structured guidance and clear next steps.
 * Organize project artifacts and documentation.
 * Track project progress.
+* Understand how different engineering activities and artifacts are connected.
+* Develop practical Software Engineering experience through real project work.
 * Gain confidence in their engineering decisions.
 * Reduce uncertainty when moving from one project stage to another.
 
@@ -44,45 +52,6 @@ Their experiences, feedback, and project needs can directly influence the produc
 
 **Current Relevance:** Primary
 
----
-
-### 3.2 Recent Software Engineering Graduates
-
-Recent graduates working on personal, portfolio, or early professional software projects may use BuildWise to apply Software Engineering practices in practical projects.
-
-**Interests and Needs:**
-
-* Apply academic Software Engineering knowledge to real projects.
-* Follow a structured engineering workflow.
-* Organize requirements, analysis, design, and documentation.
-* Improve confidence in engineering decisions.
-* Build stronger practical Software Engineering experience.
-
-**Influence on BuildWise:**
-
-Their feedback may help identify needs that differ from those of university students and may influence future product development.
-
-**Current Relevance:** Secondary / Future
-
----
-
-### 3.3 Software Engineering Trainees and Learners
-
-Software Engineering trainees and other learners working on practical projects may use BuildWise to practice building complete software systems using Software Engineering practices.
-
-**Interests and Needs:**
-
-* Apply Software Engineering concepts through practical projects.
-* Receive structured project guidance.
-* Understand how different engineering activities connect.
-* Track project progress and completed work.
-* Develop practical experience.
-
-**Influence on BuildWise:**
-
-Their experiences may help validate whether BuildWise can support learning and practical project development beyond university graduation projects.
-
-**Current Relevance:** Secondary / Future
 
 ---
 
@@ -198,16 +167,13 @@ This stakeholder has direct influence over product decisions, technical decision
 
 ## 6. Initial Stakeholder Overview
 
-| Stakeholder                                      | Category         | Interest      | Influence | Relevance          |
-| ------------------------------------------------ | ---------------- | ------------- | --------- | ------------------ |
-| Software Engineering Students                    | Individual Users | High          | High      | Primary            |
-| Recent Software Engineering Graduates            | Individual Users | High          | Medium    | Secondary / Future |
-| Software Engineering Trainees and Learners       | Individual Users | High          | Medium    | Secondary / Future |
-| Universities and Academic Programs               | Educational      | Medium / High | High      | Future             |
-| Instructors, Project Supervisors, and Evaluators | Educational      | High          | High      | Future             |
-| Training Organizations                           | Training         | Medium / High | High      | Future             |
-| Trainers and Mentors                             | Training         | High          | High      | Future             |
-| BuildWise Product and Development Team           | Internal         | High          | High      | Internal           |
+| Stakeholder                                                | Category               | Interest      | Influence | Relevance |
+| ---------------------------------------------------------- | ---------------------- | ------------- | --------- | --------- |
+| Individual Software Engineering Learners                   | Individual Users       | High          | High      | Primary   |
+| Universities and Academic Programs                         | Educational            | Medium / High | High      | Future    |
+| Instructors, Project Supervisors, Evaluators, and Trainers | Educational / Training | High          | High      | Future    |
+| Training Organizations                                     | Training               | Medium / High | High      | Future    |
+| BuildWise Product and Development Team                     | Internal               | High          | High      | Internal  |
 
 ---
 
@@ -217,20 +183,27 @@ Based on the current product discovery hypothesis:
 
 ### Primary Focus
 
-**Software Engineering Students**
+**Individual Software Engineering Learners**
 
-The initial BuildWise product is primarily focused on individual Software Engineering students building software projects.
+The initial BuildWise product is primarily focused on individuals who are building software projects and want to apply Software Engineering practices through a structured process.
+
+This includes different contexts such as:
+
+* Final-year students working on graduation projects.
+* Recent graduates working on personal or portfolio projects.
+* Trainees or independent learners working on practical projects.
+
+These contexts may involve different environments, goals, or supporting stakeholders, but they share the core use of BuildWise as an individual project-building guidance platform.
 
 ### Secondary / Future Focus
 
-The following stakeholders may become relevant as the product expands:
+The following stakeholder groups may become relevant as BuildWise expands:
 
-* Recent Software Engineering Graduates
-* Software Engineering Trainees and Learners
-* Universities and Academic Programs
-* Instructors, Project Supervisors, and Evaluators
-* Training Organizations
-* Trainers and Mentors
+* Universities and Academic Programs.
+* Instructors, Project Supervisors, Evaluators, and Trainers.
+* Training Organizations.
+
+These stakeholders may require additional capabilities for supervision, mentoring, evaluation, learner management, permissions, and reporting.
 
 ### Internal Focus
 
