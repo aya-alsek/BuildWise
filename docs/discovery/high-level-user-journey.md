@@ -342,32 +342,32 @@ These analytics capabilities are not defined as detailed MVP features at this st
 
 The BuildWise journey can be summarized as:
 
-**1. Discover BuildWise**
-↓
-**2. Create an account / Log in**
-↓
-**3. Complete onboarding**
-↓
-**4. Define or explore a project idea**
-↓
-**5. Configure the project**
-↓
-**6. Choose Solo or Team**
-↓
-**7. Create team and invite members if needed**
-↓
-**8. Understand the project approach**
-↓
-**9. Enter the project workspace**
-↓
-**10. Follow the Software Engineering journey**
-↓
-**11. Iterate and refine when necessary**
-↓
-**12. Complete the project**
-↓
-**13. Preserve project evidence**
-↓
+**1. Discover BuildWise**<br>
+↓<br>
+**2. Create an account / Log in**<br>
+↓<br>
+**3. Complete onboarding**<br>
+↓<br>
+**4. Define or explore a project idea**<br>
+↓<br>
+**5. Configure the project**<br>
+↓<br>
+**6. Choose Solo or Team**<br>
+↓<br>
+**7. Create team and invite members if needed**<br>
+↓<br>
+**8. Understand the project approach**<br>
+↓<br>
+**9. Enter the project workspace**<br>
+↓<br>
+**10. Follow the Software Engineering journey**<br>
+↓<br>
+**11. Iterate and refine when necessary**<br>
+↓<br>
+**12. Complete the project**<br>
+↓<br>
+**13. Preserve project evidence**<br>
+↓<br>
 **14. Optionally share the project**
 
 For users entering through a team invitation, the relevant path may instead be:
