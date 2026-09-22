@@ -53,11 +53,25 @@ A new user creates an account using basic account information such as:
 * Password.
 * Other authentication information required by the selected authentication method.
 
-After creating the account, the user proceeds to onboarding.
+After creating the account, the user may proceed to onboarding.
 
 ### Existing Users
 
 Existing users can log in and access their projects and workspace.
+
+### Users Invited to a Team
+
+A user does not necessarily need to have an existing BuildWise account before receiving a team invitation.
+
+If a Team Leader invites someone who does not yet have an account, the invited user can:
+
+**Open Invitation → Sign Up → Accept Invitation → Join the Team Project**
+
+If the invited user already has an account, the flow can be:
+
+**Open Invitation → Log In → Accept Invitation → Join the Team Project**
+
+This allows team invitations to serve as an entry point to BuildWise for new users.
 
 Account authentication and security requirements will be defined later during Requirements Engineering.
 
@@ -78,6 +92,8 @@ The onboarding process may ask questions such as:
 * Is the user associated with a university, training organization, or other institution?
 
 Not all questions are required for every user.
+
+If the user enters BuildWise through a team invitation, the system already knows that the user is joining a specific team/project. Therefore, the user does not need to independently choose between Solo and Team for that project.
 
 The purpose of onboarding is not to collect information for its own sake, but to provide BuildWise with enough context to personalize the initial project setup and guidance.
 
@@ -129,13 +145,17 @@ The setup may include:
 
 ### Working Mode
 
-The user may work:
+The project may be worked on:
 
 **Solo**
 
 or
 
 **As a Team**
+
+The working mode describes how the user is working on a specific project. It is not a permanent attribute of the user's account.
+
+A user may work on one project individually, while being a Team Leader or Team Member on another project.
 
 ---
 
@@ -147,9 +167,13 @@ The Team Leader may invite other users to join the project.
 
 A simplified team flow is:
 
-**Create Team / Project → Team Leader → Invite Members → Members Accept Invitation → Shared Project Workspace**
+**Create Team / Project → Team Leader → Send Invitation → Member Opens Invitation → Log In or Sign Up → Accept Invitation → Join Shared Project Workspace**
 
-All accepted members become associated with the relevant project and can collaborate according to their assigned permissions.
+A user who receives an invitation does not need to independently select "Team" for that project because the invitation already identifies the relevant team/project.
+
+Once the invitation is accepted, the user's account becomes associated with the relevant team/project as a member.
+
+All accepted members can collaborate according to their assigned permissions.
 
 Detailed team roles, permissions, invitations, member management, and leadership rules will be defined later during Requirements Engineering.
 
@@ -270,26 +294,43 @@ Public sharing is optional and should not be required to complete a project.
 
 ## 14. Platform and User Context Information
 
-During onboarding and project usage, BuildWise may collect relevant contextual information that helps personalize the experience and understand how the platform is being used.
+During account creation, onboarding, and project usage, BuildWise may collect relevant contextual information that helps personalize the experience and understand how the platform is being used.
 
-Potential information may include:
+### User Profile Information
+
+Information about the person should be associated with the user's account/profile, such as:
 
 * User context.
 * Field of study or professional field.
 * University or educational institution.
 * Training organization.
+* Other relevant background information.
+
+These attributes describe the user and should not depend on whether the user enters BuildWise directly or through a team invitation.
+
+### Project Information
+
+Information about a specific project may include:
+
 * Project type.
+* Project domain.
 * Solo or team status.
 * Project completion status.
 
-This information may support future product analytics and platform reporting, such as:
+This distinction allows one user to participate in different projects with different working modes.
+
+### Platform Analytics
+
+Aggregated information may support future product analytics and platform reporting, such as:
 
 * Number of registered users.
 * Number of projects created.
 * Number of completed projects.
 * Distribution of users by context.
-* Distribution of projects by type.
+* Distribution of users by field of study or professional field.
 * Representation of universities or organizations.
+* Distribution of projects by type.
+* Distribution of solo and team projects.
 
 Any collection, storage, visibility, and use of user information will be subject to appropriate privacy and data-management requirements.
 
@@ -329,6 +370,10 @@ The BuildWise journey can be summarized as:
 ↓
 **14. Optionally share the project**
 
+For users entering through a team invitation, the relevant path may instead be:
+
+**Invitation → Sign Up / Log In → Accept Invitation → Team Project Workspace**
+
 ---
 
 ## 16. Relationship to the MVP
@@ -348,9 +393,9 @@ The MVP should preserve the core BuildWise value while keeping the first version
 
 ## 17. Discovery Status
 
-**Version:** 0.1
+**Version:** 0.2
 
-**Status:** Initial high-level user journey hypothesis
+**Status:** Refined high-level user journey hypothesis
 
 This journey represents the current understanding of how users may interact with BuildWise.
 
