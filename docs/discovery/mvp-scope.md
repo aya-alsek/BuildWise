@@ -63,8 +63,6 @@ The exact screens, workflows, permissions, and system behavior will be defined l
 
 ## 5.1 Account and Access
 
-### MVP
-
 Users should be able to:
 
 * Create an account.
@@ -77,8 +75,6 @@ Authentication and security details will be defined during Requirements Engineer
 ---
 
 ## 5.2 Onboarding
-
-### MVP
 
 BuildWise should collect enough initial information to understand the user's context and support project setup.
 
@@ -97,8 +93,6 @@ Detailed data requirements will be defined later.
 ---
 
 ## 5.3 Project Idea
-
-### MVP
 
 BuildWise should support users who:
 
@@ -132,8 +126,6 @@ Advanced AI-based idea generation is not required for the initial MVP.
 
 ## 5.4 Project Configuration
 
-### MVP
-
 The user should be able to create and configure a project.
 
 Initial project information may include:
@@ -150,8 +142,6 @@ The MVP should collect only the information necessary to establish the project c
 ---
 
 ## 5.5 Solo and Team Projects
-
-### MVP
 
 A project should support two working modes:
 
@@ -174,7 +164,6 @@ Advanced collaboration features, complex permissions, and enterprise-level team 
 
 ## 5.6 Project Approach
 
-### MVP
 
 BuildWise should help the user understand and select an appropriate Software Engineering approach based on the project's context.
 
@@ -193,8 +182,6 @@ The user remains responsible for the final engineering decisions.
 ---
 
 ## 5.7 Project Workspace
-
-### MVP
 
 Each project should have a central workspace where the user can manage the project's Software Engineering journey.
 
@@ -267,7 +254,6 @@ The MVP should establish the concept that project artifacts are connected output
 
 ## 5.10 Progress Tracking
 
-### MVP
 
 Users should be able to understand:
 
@@ -299,8 +285,6 @@ The MVP does not need a complex change-management or version-control system for 
 
 ## 5.12 Project Completion
 
-### MVP
-
 BuildWise should provide a clear project completion state based on the relevant project activities and expected outputs.
 
 Completion should not be defined only by whether the software runs successfully.
@@ -312,8 +296,6 @@ Detailed completion criteria will be defined during Requirements Engineering.
 ---
 
 ## 5.13 Project Evidence
-
-### MVP
 
 BuildWise should preserve an organized representation of the user's project work.
 
