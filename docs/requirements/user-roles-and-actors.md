@@ -147,7 +147,3 @@ The following are not separate system roles in the MVP:
 * Team Leader
 
 Student, Graduate, Trainee, and Independent Learner are user contexts, while Team Leader is represented by the Project Owner role for Team Projects.
-
----
-
-**Status:** Draft — Version 0.1
