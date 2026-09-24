@@ -193,5 +193,3 @@ The following will be defined during later Analysis and Design:
 * Detailed data attributes
 * Database schema and storage design
 * Data validation and integrity rules
-* Data storage structure
-* Detailed traceability model
