@@ -150,7 +150,3 @@ These requirements define the initial quality expectations for the BuildWise MVP
 Specific measurable targets such as exact response-time limits, supported browser versions, expected concurrent users, availability percentages, or recovery times should be defined later when deployment conditions and actual usage expectations are known.
 
 The NFRs may therefore be refined during system analysis, architecture design, implementation, and validation.
-
----
-
-**Status:** Draft — Version 0.1
