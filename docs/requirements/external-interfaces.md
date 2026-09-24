@@ -72,7 +72,7 @@ The MVP shall therefore:
 
 * Provide the main functionality through the BuildWise web interface
 * Use external email communication where required
-* Allow external project references through user-provided links
+* Allow users to include manually provided external references as part of project evidence, without requiring direct integration with external platforms.
 * Avoid requiring direct integration with external development, AI, academic, or organizational platforms
 
 External integrations may be introduced incrementally in future iterations as validated product needs emerge.
