@@ -189,10 +189,9 @@ This document defines **what information BuildWise needs to manage**, not how it
 
 The following will be defined during later Analysis and Design:
 
-* Conceptual data model
-* Entity relationships
-* Detailed attributes
-* Database schema
-* Data validation rules
+* Conceptual data model and entity relationships
+* Detailed data attributes
+* Database schema and storage design
+* Data validation and integrity rules
 * Data storage structure
 * Detailed traceability model
