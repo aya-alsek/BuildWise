@@ -186,7 +186,3 @@ Advanced rules related to:
 * AI-assisted project review
 
 are outside the current MVP and will be defined when the corresponding features are introduced.
-
----
-
-**Status:** Draft — Version 0.1
