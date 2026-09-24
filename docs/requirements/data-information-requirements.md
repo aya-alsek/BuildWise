@@ -193,3 +193,5 @@ The following will be defined during later Analysis and Design:
 * Detailed data attributes
 * Database schema and storage design
 * Data validation and integrity rules
+
+Requirements traceability will be maintained as needed across requirements, design, implementation, and testing activities.
