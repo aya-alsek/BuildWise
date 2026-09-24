@@ -58,9 +58,9 @@ User passwords shall be stored and handled using appropriate secure password-pro
 
 ## NFR-SEC-03 — Authorization
 
-The system shall restrict access to project information and actions according to the user's permissions and project role.
+The system shall restrict access to project information and actions based on the authenticated user's project role and permissions.
 
-A User shall not be able to access or modify private project data without authorization.
+An authenticated user shall only be able to access or modify private project data for projects in which they have the required permissions
 
 ## NFR-SEC-04 — Input Validation
 
