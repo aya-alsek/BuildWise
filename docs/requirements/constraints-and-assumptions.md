@@ -91,7 +91,7 @@ Some outputs, such as source code or externally created documents, may remain ou
 
 ### CA-13 — Project Privacy by Default
 
-Project information is assumed to be private unless the system explicitly provides a supported sharing mechanism.
+Project information shall be private by default within BuildWise. Public project discovery and showcase features are outside the MVP scope. Users may still share their project through external platforms or services.
 
 Public project sharing is outside the MVP scope.
 
