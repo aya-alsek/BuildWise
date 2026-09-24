@@ -491,5 +491,4 @@ The system shall provide an organized overview of the project's accumulated evid
 
 ---
 
-**Status:** Draft — Version 0.1
 **Note:** Requirements may be refined during subsequent Requirements Engineering, Analysis, Design, and validation activities.
